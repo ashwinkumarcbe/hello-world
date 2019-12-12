@@ -1,1 +1,79 @@
-<mxfile host="www.draw.io" modified="2019-12-12T09:12:26.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.3.9" etag="LqNj8AYWuHUrQlyKz9j4" type="github" pages="1"><diagram id="zqJeUws0fKzhoAAnQXA7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-12T10:04:33.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="PNevuTSZvMzvEGeOqb2a" version="12.3.9" type="github" pages="1">
+  <diagram id="zqJeUws0fKzhoAAnQXA7" name="Page-1">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-1" value="Retailer" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="98" y="38" width="35" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-2" value="Stockists" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="224" y="38" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-3" value="TSO" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="38" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-4" value="ASM" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-12" value="Gives damaged stock to stockist" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="67" y="146" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-14" value="Receives damaged stock and stores it in his location" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="179" y="146" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-20" value="TSO verifies stock and enters data in CKPL portal along with stockist. Workflow is triggered." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="166" width="105" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-22" value="ASM verifies in portal and approves/rejects." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="135" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-23" value="3rd Party Vendor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-26" value="Vendor receives physical stock and approves/rejects in portal" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="165" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-27" value="Claims Team" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="40" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-28" value="Claims team receives data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="145" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-30" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125.5" y="79" as="sourcePoint"/>
+            <mxPoint x="233" y="79" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="193" y="79"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-31" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="251" y="80" as="sourcePoint"/>
+            <mxPoint x="357.5" y="80" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-32" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="382.5" y="80" as="sourcePoint"/>
+            <mxPoint x="500" y="80" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-33" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="527.5" y="80" as="sourcePoint"/>
+            <mxPoint x="635" y="80" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4eHrUif2tNwuf7_1i-jm-34" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="80" as="sourcePoint"/>
+            <mxPoint x="760" y="80" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
